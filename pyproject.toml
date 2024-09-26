@@ -13,7 +13,7 @@ python = "^3.11"
 [tool.poetry.group.dev.dependencies]
 pre-commit = "^3.6.2"
 isort = "^5.13.2"
-ruff = "^0.4.7"
+ruff = "^0.6.7"
 pytest = "^8.1.1"
 hypothesis = "^6.99.12"
 mypy = "^1.9.0"
