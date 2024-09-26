@@ -1,0 +1,6 @@
+version: 2
+updates:
+  - package-ecosystem: "pip" 
+    directory: "/"      # Keep the directory as root
+    schedule:
+      interval: "weekly"
