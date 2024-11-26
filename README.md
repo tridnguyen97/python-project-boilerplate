@@ -16,6 +16,8 @@ Refer to their documentation for installation instructions.
 * [PyEnv Installation](https://github.com/pyenv/pyenv?tab=readme-ov-file#getting-pyenv)
 * [Poetry Installation](https://python-poetry.org/docs/#installing-with-the-official-installer)
 
+*Notes*: In Windows, if Poetry's path is not applied to PATH environment variable, attempting to close all terminals and VSCode instances.
+
 **Setting Up the Development Environment**
 
 1. **Install and Verify Python Versions:**
@@ -66,10 +68,10 @@ Refer to their documentation for installation instructions.
    * If `pyenv` isn't managing your system-wide Python version or you want to explicitly activate the project's environment
 
      ```bash
-     poetry env use python3.11
+     poetry env use 3.11
      ```
 
-     Replace `python3.11` with the appropriate version for your project.
+     Replace `3.11` with the appropriate version for your project.
 6. **Enter the Poetry Shell (Optional):**
 
    * To isolate your development environment and manage dependencies effectively, start the Poetry shell:
